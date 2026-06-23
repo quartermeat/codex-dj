@@ -29,6 +29,7 @@ After building, run the wrapper:
 .\Codex-DJ.bat success
 .\Codex-DJ.bat reload
 .\Codex-DJ.bat what
+.\Codex-DJ.bat loki
 .\Codex-DJ.bat glow
 ```
 
@@ -39,6 +40,7 @@ After building, run the wrapper:
 - `error`
 - `reload`
 - `what`
+- `loki`
 - `glow`
 
 ## Codex Sound Protocol
@@ -47,6 +49,7 @@ Use these short sounds as a local interaction language:
 
 - `doit`: action acknowledged; Codex is about to execute the requested move.
 - `what`: surprise, confusion, or "that result is not what I expected."
+- `loki`: knowing mischief; the same shape as `what`, but less startled and more sly.
 - `success`: task completed or a smoke test passed.
 - `error`: command failed, blocker hit, or user attention needed.
 - `reload`: Bitwig/plugin reload or restart handoff is needed.
