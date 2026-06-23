@@ -80,6 +80,39 @@ var sounds = map[string]sound{
 			{Frequency: 392.00, Seconds: 0.18, Volume: 0.19},
 		},
 	},
+	"spark": {
+		Name: "spark",
+		Notes: []note{
+			{Frequency: 523.25, Seconds: 0.055, Volume: 0.17},
+			{Frequency: 659.25, Seconds: 0.065, Volume: 0.20},
+			{Frequency: 783.99, Seconds: 0.08, Volume: 0.23},
+			{Frequency: 0, Seconds: 0.025, Volume: 0},
+			{Frequency: 880.00, Seconds: 0.11, Volume: 0.19},
+			{Frequency: 739.99, Seconds: 0.08, Volume: 0.15},
+		},
+	},
+	"nod": {
+		Name: "nod",
+		Notes: []note{
+			{Frequency: 392.00, Seconds: 0.06, Volume: 0.16},
+			{Frequency: 0, Seconds: 0.025, Volume: 0},
+			{Frequency: 329.63, Seconds: 0.10, Volume: 0.18},
+			{Frequency: 293.66, Seconds: 0.12, Volume: 0.14},
+		},
+	},
+	"crazy": {
+		Name: "crazy",
+		Notes: []note{
+			{Frequency: 523.25, Seconds: 0.045, Volume: 0.18},
+			{Frequency: 622.25, Seconds: 0.05, Volume: 0.21},
+			{Frequency: 739.99, Seconds: 0.045, Volume: 0.22},
+			{Frequency: 587.33, Seconds: 0.06, Volume: 0.20},
+			{Frequency: 0, Seconds: 0.025, Volume: 0},
+			{Frequency: 880.00, Seconds: 0.07, Volume: 0.23},
+			{Frequency: 698.46, Seconds: 0.055, Volume: 0.20},
+			{Frequency: 987.77, Seconds: 0.10, Volume: 0.18},
+		},
+	},
 	"glow": {
 		Name: "glow",
 		Notes: []note{
@@ -266,5 +299,5 @@ Usage:
   codex-dj render <sound> [path]
 
 Sounds:
-  doit, success, error, reload, what, loki, glow`)
+  doit, success, error, reload, what, loki, spark, nod, crazy, glow`)
 }
