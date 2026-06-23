@@ -70,6 +70,15 @@ var sounds = map[string]sound{
 			{Frequency: 698.46, Seconds: 0.20, Volume: 0.36},
 		},
 	},
+	"glow": {
+		Name: "glow",
+		Notes: []note{
+			{Frequency: 440.00, Seconds: 0.10, Volume: 0.24},
+			{Frequency: 554.37, Seconds: 0.10, Volume: 0.25},
+			{Frequency: 659.25, Seconds: 0.10, Volume: 0.27},
+			{Frequency: 880.00, Seconds: 0.24, Volume: 0.24},
+		},
+	},
 }
 
 func Run(ctx context.Context, args []string, stdout, stderr io.Writer) error {
@@ -247,5 +256,5 @@ Usage:
   codex-dj render <sound> [path]
 
 Sounds:
-  doit, success, error, reload, what`)
+  doit, success, error, reload, what, glow`)
 }

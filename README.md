@@ -29,6 +29,7 @@ After building, run the wrapper:
 .\Codex-DJ.bat success
 .\Codex-DJ.bat reload
 .\Codex-DJ.bat what
+.\Codex-DJ.bat glow
 ```
 
 ## Sounds
@@ -38,6 +39,7 @@ After building, run the wrapper:
 - `error`
 - `reload`
 - `what`
+- `glow`
 
 ## Codex Sound Protocol
 
