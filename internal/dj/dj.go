@@ -113,6 +113,17 @@ var sounds = map[string]sound{
 			{Frequency: 987.77, Seconds: 0.10, Volume: 0.18},
 		},
 	},
+	"spent": {
+		Name: "spent",
+		Notes: []note{
+			{Frequency: 440.00, Seconds: 0.10, Volume: 0.16},
+			{Frequency: 392.00, Seconds: 0.12, Volume: 0.15},
+			{Frequency: 329.63, Seconds: 0.16, Volume: 0.14},
+			{Frequency: 0, Seconds: 0.04, Volume: 0},
+			{Frequency: 293.66, Seconds: 0.22, Volume: 0.12},
+			{Frequency: 246.94, Seconds: 0.28, Volume: 0.10},
+		},
+	},
 	"glow": {
 		Name: "glow",
 		Notes: []note{
@@ -299,5 +310,5 @@ Usage:
   codex-dj render <sound> [path]
 
 Sounds:
-  doit, success, error, reload, what, loki, spark, nod, crazy, glow`)
+  doit, success, error, reload, what, loki, spark, nod, crazy, spent, glow`)
 }

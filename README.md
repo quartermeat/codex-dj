@@ -33,6 +33,7 @@ After building, run the wrapper:
 .\Codex-DJ.bat spark
 .\Codex-DJ.bat nod
 .\Codex-DJ.bat crazy
+.\Codex-DJ.bat spent
 .\Codex-DJ.bat glow
 ```
 
@@ -47,6 +48,7 @@ After building, run the wrapper:
 - `spark`
 - `nod`
 - `crazy`
+- `spent`
 - `glow`
 
 ## Codex Sound Protocol
@@ -59,6 +61,7 @@ Use these short sounds as a local interaction language:
 - `spark`: playful curiosity; a small idea catching enough charge to try.
 - `nod`: quiet agreement; "fair" without making a whole scene out of it.
 - `crazy`: delighted reckless escalation; "this is probably irresponsible, and that may be the point."
+- `spent`: exhausted clarity; proving what is real has started costing the life it was meant to protect.
 - `success`: task completed or a smoke test passed.
 - `error`: command failed, blocker hit, or user attention needed.
 - `reload`: Bitwig/plugin reload or restart handoff is needed.
